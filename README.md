@@ -81,18 +81,26 @@ Los archivos de datos **no se incluyen en este repositorio** por su tamaño (~3.
 
 ### Instalación de dependencias
 
+Se recomienda utilizar un entorno virtual para mantener las dependencias aisladas:
+
 ```bash
-pip install polars duckdb lightgbm xgboost prophet pytrends scikit-learn statsmodels matplotlib seaborn plotly scipy pmdarima
-```
+# 1. Crear el entorno virtual
+python -m venv venv
+
+# 2. Activar el entorno virtual
+# En macOS/Linux:
+source venv/bin/activate
+# En Windows:
+venv\Scripts\activate
+
+# 3. Instalar todas las dependencias requeridas
+pip install -r requirements.txt
 
 ### Ejecución
 
 ```bash
 python TFM_CRISP_DM_HM.py
 ```
-
-Los resultados (gráficas y tabla de política de inventario) se guardarán automáticamente en la carpeta `outputs/`.
-
 ---
 
 ## KPIs del proyecto
