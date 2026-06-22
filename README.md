@@ -67,8 +67,8 @@ El dataset utilizado es **H&M Personalized Fashion Recommendations**, disponible
 
 Los archivos de datos **no se incluyen en este repositorio** por su tamaño (~3.4 GB). Para ejecutar el pipeline:
 
-1. Descarga los tres archivos CSV desde Kaggle
-2. Colócalos en la carpeta `data/`
+1. Descarga los siguientes tres archivos CSV desde Kaggle: transactions.csv, customers.csv y articles.csv
+2. Colócalos en la carpeta `Datos/`
 3. Ejecuta el script principal
 
 ---
@@ -142,7 +142,7 @@ En el desarrollo de este proyecto se utilizaron herramientas de IA generativa (C
 
 ## Referencia del dataset
 
-H&M Group. (2022). *H&M Personalized Fashion Recommendations*. Kaggle.  
+H&M Group. (2022). *H&M Personalized Fashion Recommendations*. Kaggle.
 https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations
 
 ---
